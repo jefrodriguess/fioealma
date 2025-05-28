@@ -48,7 +48,7 @@ const produtos = {
     ]
   },
   "conjunto-marron": {
-    titulo: "Casaco Céu",
+    titulo: "Conjunto Marron",
     descricao: "Peças criadas a partir jeans pós curadoria, une estilo e consciência ecológica.",
     criador: "Feito por João Nascimento - alfaiataria artesanal.",
     imagens: [
