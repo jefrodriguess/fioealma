@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ateliê Fio & Alma</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <img src="img/capa1.png" alt="Ateliê Fio & Alma" class="header-img">
+    <nav class="menu">
+      <a href="index.html">Sobre</a>
+      <a href="vitrine.html">Vitrine</a>
+      <a href="facaparte.html">Faça parte</a>
+      <a href="espaco.criador.html">Espaço do Criador</a>
+    </nav>
+  </header>
+
+  <main class="pagina-detalhe">
+    <section class="detalhe-produto">
+      <div class="imagem-produto">
+        <div id="carrossel-imagens"></div>
+        <div class="setas-carrossel">
+          <button onclick="voltarImagem()">◀</button>
+          <button onclick="avancarImagem()">▶</button>
+        </div>
+      </div>
+
+      <div class="descricao-produto">
+        <h2 id="titulo-produto">Nome da peça</h2>
+        <p id="descricao-produto">Descrição da peça será exibida aqui.</p>
+        <div class="info-criador">
+          <h3>Informações sobre o criador</h3>
+          <p id="info-criador">Nome, técnica, contato etc.</p>
+        </div>
+    </section>
+
+    <section class="formulario-contato">
+      <h3>Gostou? Preencha o formulário para o criador confeccioná-la para você</h3>
+      <form>
+        <label>Nome:</label>
+        <input type="text" name="nome" required>
+        <label>E-mail:</label>
+        <input type="email" name="email" required>
+        <label>Telefone:</label>
+        <input type="tel" name="telefone">
+        <label>Mensagem:</label>
+        <textarea name="mensagem" rows="4" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+    <footer>
+        <div class="txt-social" id="txt-social">
+            <h1> "Confiaça é um tecido delicado que não aceita remendos"</h1>
+        </div>
+        <div class="social">
+        <div>
+                <a href="#"><i class="bi bi-facebook"></i></a>
+            </div>
+            <div>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+            </div>
+            <div>
+                <a href="#"><i class="bi bi-whatsapp"></i></a>
+            </div>
+        </div>
+    </footer>
+
+  <script src="detalhe.js"></script>
+</body>
+</html>
